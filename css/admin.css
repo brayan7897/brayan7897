@@ -1,0 +1,359 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    font-size: 1.0rem;
+    font-family: 'Bw Quinta Pro','Roboto',Verdana, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDE8F0;
+}
+.container{
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    color: #E387A2;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.sect1  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #262E4D;
+    text-decoration: none;
+}
+.sect2 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #8E2142;
+    text-decoration: none;
+}
+.sect3  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #262E4D;
+    text-decoration: none;
+}
+.sect4 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #8E2142;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 0 50px;
+}
+.navigation{
+    width: 50%;
+    background-color: #FFFFFF;
+    height: 1.5rem;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+    display: inline-block;
+    }
+        .navigation ul li a{
+            padding: 0.7rem 4.48rem;
+            transition: all 0.1s linear;
+            border-radius: 5px;
+        }
+        .sect1:hover{
+            border: 4px solid #262E4D;
+            box-shadow: 0px 15px 20px #262E4D;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect2:hover{
+            border: 4px solid #8E2142;
+            box-shadow: 0px 15px 20px #8E2142;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect3:hover{
+            border: 4px solid #262E4D;
+            box-shadow: 0px 15px 20px #262E4D;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect4:hover{
+            border: 4px solid #8E2142;
+            box-shadow: 0px 15px 20px #8E2142;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+.sesionbt{
+    text-decoration: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border: none;
+    margin: 0 50px;
+    color: #8E2142;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid #8E2142;
+    border-radius: 5px;
+    display: flex;
+}
+.sesionbt:hover{
+    color: #E387A2;
+    border: 2px solid #E387A2;
+}
+.img_usu{
+    width: 3rem;
+    height: 3rem;
+}
+.sesionbt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nombre_usu{
+    font-size: 18px;
+    font-family: 'Mali', sans-serif;
+    font-weight: bold;
+    margin: 0.7rem 0.5rem;
+}
+.seccion1{
+    position: relative;
+    margin: 100px 0 20px 400px;
+    width: 74%;
+    height: 659px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+}
+.crearlista{
+    padding: 10px;
+}
+.registrar{
+    width: 100%;
+    height: 5%;
+    background-color: #EC8484;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.previ_canciones{
+    height: 70%;
+    width: 100%;
+    background-color: #F5EEEE;
+    margin: 2% 0;
+    display: grid;
+    grid-template-columns: 95%;
+    grid-template-rows: repeat(10, 10%);
+    gap: 5px;
+}
+.lista{
+    height: 5%;
+    width: 70%;
+    background: #8E2142;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+.crear_lista{
+    background: #29E7C4;
+    height: 5%;
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.crear_lista:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.create_lista{
+    width: 100%;
+    height: 8%;
+    background-color: #8DE3D4;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.seccion2{
+    padding: 50px 0 0 400px;
+    width: 75%;
+    height: 739px;
+    background-color: #E39BB1;
+}
+
+.modal_lista{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    position: fixed;
+    right: 550px;
+    bottom: 200px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    transform: translateY(-200%);
+    border: 2px solid black;
+}
+.titulo_lista{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.ax{
+    width: 70%;
+    height: 20%;
+    font-size: 28px;
+}
+.cerrar_lista{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #EC8484;
+    height: 10%;
+    width: 8%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.guardar_lista{
+    height: 15%;
+    width: 20%;
+    background: #da8248;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 20% 40%;
+}
+.cancion_{
+    background: white;
+    text-align: center;
+    border:2px solid black;
+    margin: 0 70px;
+    padding-top: 10px;
+}
+.container-register-merch{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background: #EEE3E3;
+}
+.previ-mech{
+    height: 50%;
+}
+.articulo{
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+    background: white;
+}
+.arti_img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 10%;
+    display: flexbox;
+}
+.datos_arti{
+    display: flexbox;
+    height: 30%;
+    width: 100%;
+    padding: 11px;
+}
+.ex_arti{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.precio_arti{
+    display: inline-flex;
+    font-size: 17px;
+}
+.title_arti{
+    font-size: 17px;
+    font-weight: bold;
+    color: #262E4D;
+    text-decoration: none;
+}
+.des_arti{
+    font-size: 15px;
+    width: 90%;
+}
+.d_merch{
+    height: 5%;
+    width: 90%;
+    font-size: 16px;
+    margin: 2%;
+}
+.des_merch{
+    height: 20%;
+    width: 90%;
+    font-size: 16px;
+    margin: 2%;
+}
+.file_merch{
+    width: 45%;
+    margin: 0 2%;
+}
+.previ_arti{
+    background: #394367;
+    height: 4%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16PX;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.previ_arti:hover{
+    background-color: #6477BC;
+}
+.create_arti{
+    height: 5%;
+    width: 100%;
+    color: white;
+    background: #8E2142;
+    font-size: 18px;
+    cursor: pointer;
+}
+.create_arti:hover{
+    background-color: #DB3869;
+}

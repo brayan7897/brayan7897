@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #262E4D;
+    height: auto;
+    font-family: 'Bw Quinta Pro','Roboto',Verdana, Times, serif;
+}
+.logo-container{
+    margin: 20px 50px;
+    display: inline-block;
+}
+
+.container-login{
+    height: 79.2%;
+    width: 73.25%;
+    margin: 50px 0;
+    background-color: #374471;
+    display: inline-flex;
+    color: white;
+    padding: 10px;
+}
+.register-container{
+    width: 60.75%;
+    height: 523px;
+    margin: 38.5px 7.5px 38.5px 73px;
+    background-color: #394367;
+    display: flexbox;
+    border: 4px solid #EC8484;
+}
+.login{
+    width: 27.47%;
+    height: 523px;
+    margin: 38.5px 73px 38.5px 7.5px;
+    background-color: #394367;
+    display: flexbox;
+    border: 4px solid #EC8484;
+}
+.register-container h1{
+    font-size: 28px;
+    margin: 30px;
+}
+.datos-registro{
+    margin: 50px;
+}
+.datos-registro p{
+    font-size: 18px;
+}
+.correo-r{
+    width: 49.4%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.usuario-r{
+    width: 49.4%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.password-r{
+    width: 49.4%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.bt-registrar{
+    width: 49.4%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #EC8484;
+    border: none;
+    margin: 8% 25.3%;
+}
+
+.login h1{
+    font-size: 28px;
+    margin: 50px;
+}
+
+.datos-login{
+    margin: 100px 10px;
+}
+.datos-login p{
+    font-size: 18px;
+}
+
+.usuario-l{
+    width: 90%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.password-l{
+    width: 90%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.bt-logear{
+    width: 49.4%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #EC8484;
+    border: none;
+    margin: 20% 25.3%;
+}

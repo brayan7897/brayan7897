@@ -1,0 +1,220 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    font-size: 1.0rem;
+    font-family: 'Bw Quinta Pro','Roboto',Verdana, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDE8F0;
+}
+.container{
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    color: #E387A2;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.sect1  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #262E4D;
+    text-decoration: none;
+}
+.sect2 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #8E2142;
+    text-decoration: none;
+}
+.sect3  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #262E4D;
+    text-decoration: none;
+}
+.sect4 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #8E2142;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 0 50px;
+}
+.navigation{
+    width: 50%;
+    background-color: #FFFFFF;
+    height: 1.5rem;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+    display: inline-block;
+    }
+        .navigation ul li a{
+            padding: 0.7rem 4.48rem;
+            transition: all 0.1s linear;
+            border-radius: 5px;
+        }
+        .sect1:hover{
+            border: 4px solid #262E4D;
+            box-shadow: 0px 15px 20px #262E4D;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect2:hover{
+            border: 4px solid #8E2142;
+            box-shadow: 0px 15px 20px #8E2142;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect3:hover{
+            border: 4px solid #262E4D;
+            box-shadow: 0px 15px 20px #262E4D;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+        .sect4:hover{
+            border: 4px solid #8E2142;
+            box-shadow: 0px 15px 20px #8E2142;
+	        transform: translateY(-7px);
+            background-color: #F5EEEE;
+        }
+.sesionbt{
+    text-decoration: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border: none;
+    margin: 0 50px;
+    color: #8E2142;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid #8E2142;
+    border-radius: 5px;
+    display: flex;
+}
+.sesionbt:hover{
+    color: #E387A2;
+    border: 2px solid #E387A2;
+}
+.img_usu{
+    width: 3rem;
+    height: 3rem;
+}
+.sesionbt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nombre_usu{
+    font-size: 18px;
+    font-family: 'Mali', sans-serif;
+    font-weight: bold;
+    margin: 0.7rem 0.5rem;
+}
+
+.modal-articulo{
+    height: 630px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #2D1E40;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    right: 30%;
+    bottom: 50px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    border: 5px solid #9F8DB6;
+    transform: translateY(-200%);
+}
+.close-modal{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.img_compra img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.title_compra{
+    font-family: "VT323", sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+    -webkit-text-stroke: 1px #824584;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.line3{
+    width: 90%;
+    height: 2px;
+    margin-left: 20px;
+    background-color: white;
+    border: solid 3px #824584;
+}
+.container_can{
+    width: 90%;
+    height: 80%;
+    margin-left: 23px;
+}
+.music{
+    height: 2rem;
+    width: 95%;
+    padding: 5px 0 0 5px;
+    border: 3px solid #EC8484;
+    margin: 0 0 5px 40px;
+    transition: 0.1s;
+}
+.music:hover{
+    margin: none;
+    background-color: #8E2142;
+    color: white;
+}
+.cancion{
+    height: 2rem;
+    width: 95%;
+    padding: 5px 0 0 5px;
+    border: 3px solid #8E2142;
+    margin-top: 5px;
+    transition: 0.1s;
+    background-color: white;
+}
+.cancion:hover{
+    margin: none;
+    background-color: #B19BB1;
+    color: white;
+    border: solid 3px white;
+}
+.btcancion{
+    border: none;
+    display: inline-block;
+    background-color:rgba(255, 0, 0, 0);
+}
+.nombre_cancion{
+    display: inline-block;
+    font-size: 18px;
+}

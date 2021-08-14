@@ -1,0 +1,234 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    font-size: 1.0rem;
+    font-family: 'Bw Quinta Pro','Roboto',Verdana, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #262E4D;
+}
+.container{
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    color: #E387A2;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.sect1  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #29E7C4;
+    text-decoration: none;
+}
+.sect2 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #E387A2;
+    text-decoration: none;
+}
+.sect3  {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #29E7C4;
+    text-decoration: none;
+}
+.sect4 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #E387A2;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 0 50px;
+}
+.navigation{
+    width: 50%;
+    background-color: #374471;
+    height: 1.5rem;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+    display: inline-block;
+    }
+        .navigation ul li a{
+            padding: 0.7rem 4.48rem;
+            transition: all 0.1s linear;
+            border-radius: 5px;
+        }
+        .sect1:hover{
+            border: 4px solid #29E7C4;
+            box-shadow: 0px 15px 20px #29E7C4;
+	        transform: translateY(-7px);
+            background-color: #262E4D;
+        }
+        .sect2:hover{
+            border: 4px solid #E387A2;
+            box-shadow: 0px 15px 20px #E387A2;
+	        transform: translateY(-7px);
+            background-color: #262E4D;
+        }
+        .sect3:hover{
+            border: 4px solid #29E7C4;
+            box-shadow: 0px 15px 20px #29E7C4;
+	        transform: translateY(-7px);
+            background-color: #262E4D;
+        }
+        .sect4:hover{
+            border: 4px solid #E387A2;
+            box-shadow: 0px 15px 20px #E387A2;
+	        transform: translateY(-7px);
+            background-color: #262E4D;
+        }
+.loginbt{
+    height: 2rem;
+    width: 8rem;
+    background-color: #262E4D;
+    border: none;
+    margin: 0 50px;
+    padding: 3px 20px;
+    text-align: center;
+    color: #29E7C4;
+    font-size: 18px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    border: 2px solid #29E7C4;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px ;
+}
+.loginbt:hover{
+    color: #E387A2;
+    border: 2px solid #E387A2;
+}
+.main{
+    padding: 0;
+}
+.seccion4{
+    padding: 0;
+    width: 100%;
+    height: 789px;
+    background-color: #8DE3D4;
+}
+/*
+.btn-flotante {
+	border-radius: 20px; 
+	background-color: #2c5052;
+	padding: 15px 20px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 100000;
+}
+.btn-flotante:hover {
+	background-color: #c35d4b; 
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+.chatbot-box{
+    position: fixed;
+    right: 30px;
+    bottom: 150px;
+    background: #364850;
+    width: 400px;
+    height: 70vh;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 16px;
+    box-shadow: 0 0 11px rgba(0,0,0,0.9);
+    z-index: 100000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+}
+.chatbot-box.active{
+    transform: scaleY(1);
+}
+#chatList{
+    height: calc(70vh - 120px);
+    overflow-x: auto;
+    position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+#chatList::-webkit-scrollbar{
+    display: none;
+}
+#chatList ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+}
+#chatList ul li.admin-message{
+    background-color: white;
+    color: #515151;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 20px;
+    margin: 15px 30% 15px 5px;
+    text-transform: capitalize;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+#chatList ul li.client-message{
+    background-color: #40c8bd;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px 0 20px 20px;
+    margin: 15px 5px 15px 30%;
+    text-transform: capitalize;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.message-box-wrap{
+    position: relative;
+    margin-top:80px;
+}
+.message-box input[type="text"],
+.message-box select{
+    height: 25px;
+    padding: 10px;
+    line-height: 20px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid #bcb3b3;
+    font-size: 20px;
+}
+#send{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #40c8bd;
+    border: 0 !important;
+    outline: 0 !important;
+}
+*/
+
+
+

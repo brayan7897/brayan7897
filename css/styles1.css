@@ -1,0 +1,78 @@
+.seccion1{
+    padding: 0 0 0 400px;
+    width: 74%;
+    height: 709px;
+    background-color: #262E4D;
+}
+.intro{
+    margin: 100px 0 0 0;
+    width: 93.5%;
+    height: 65%;
+    position: relative;
+    border: 4px solid #29E7C4;
+    box-shadow: 0px 15px 20px #29E7C4;
+	transform: translateY(-7px);
+    overflow: hidden;
+}
+.intro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bits_info{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.title_16bits{
+    font-family: 'Bevan', cursive;
+    font-size: 48px;
+    border: 5px solid white;
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    display: inline-block;
+    margin: 0 15%;
+}
+.title_16bits:hover {
+    color: #E387A2;
+    border: 4px solid #29E7C4;
+    box-shadow: 0px 15px 20px #29E7C4;
+    transform: translateY(-7px);
+}
+.info_text{
+    font-size: 18px;
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    padding: 0 2% 2% 2%;
+    margin: 10% 0;
+    transform: translateX(120%);
+    border: 4px solid white;
+    transition: transform 0.3s ease-in;
+    background: rgba(0, 0, 0, 0.623);
+}
+.musicbox{
+    width: 93.5%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    margin: 10px 0 0 0;
+    
+}
+.pmusic{
+    padding: 0;
+    color: white;
+    background: #262E4D;
+}
+.pmusic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline;
+}

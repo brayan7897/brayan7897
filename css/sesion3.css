@@ -1,0 +1,69 @@
+.seccion3{
+    padding: 100px 0 0 400px;
+    width: 75%;
+    height: 689px;
+    background-color: #FFFDFD;
+}
+.event-box{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img1 img4 img5"
+    "img1 img6 img7";
+    grid-template-rows: 33.3% 33.3%  33.3%;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.event{
+    background-color: #f5eaea;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+.event_hover{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.342);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+}
+.event img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event:hover .event_hover{
+    transform: translateX(0%);
+}
+
+.event:nth-of-type(1){
+    grid-area: img1;
+}
+.event:nth-of-type(2){
+    grid-area: img2;
+}
+.event:nth-of-type(3){
+    grid-area: img3;
+}
+.event:nth-of-type(4){
+    grid-area: img4;
+}
+.event:nth-of-type(5){
+    grid-area: img5;
+}
+.event:nth-of-type(6){
+    grid-area: img6;
+}

@@ -1,0 +1,49 @@
+.seccion2{
+    padding: 50px 0 0 400px;
+    width: 75%;
+    height: 739px;
+    background-color: #E39BB1;
+}
+.seccion2 h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #262E4D;
+}
+.listmusic_box{
+    overflow-x: scroll;
+    background-color: white;
+    height: 70%;
+    width: 90%;
+    padding: 0.5rem 0  0.25rem 0.5rem;
+}
+.titlelist{
+    font-size: 20px;
+    font-weight: bold;
+    height: 1.5rem;
+    color: #7A3C3C;
+    background-color: #EC8484;
+    padding: 4px 10px;
+    margin: 0 0 10px 0;
+}
+.music{
+    height: 2rem;
+    width: 95%;
+    padding: 5px 0 0 5px;
+    border: 3px solid #EC8484;
+    margin: 0 0 5px 40px;
+    transition: 0.1s;
+}
+.music:hover{
+    margin: none;
+    background-color: #8E2142;
+    color: white;
+}
+.btmusic{
+    border: none;
+    display: inline-block;
+    background-color:rgba(255, 0, 0, 0);
+}
+.nombre_music{
+    display: inline-block;
+    font-size: 18px;
+}

@@ -1,0 +1,73 @@
+.seccion4{
+    padding: 100px 0 0 400px;
+    width: 75%;
+    height: 689px;
+    background-color: #8DE3D4;
+}
+.store_music-box{
+    height: 45%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+}
+.store_arti-box{
+    overflow-y: scroll;
+    height: 45%;
+    width: 90%;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100%;
+    gap: 5px;
+}
+.disc{
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+.articulo{
+    overflow-x: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.articulo:hover{
+    border: solid 2px black;
+}
+.arti_img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 10%;
+    display: flexbox;
+}
+.datos_arti{
+    display: flexbox;
+    height: 30%;
+    width: 100%;
+    padding: 11px;
+}
+.ex_arti{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.tipo_arti{
+    display: inline-flex;
+    font-size: 13px;
+}
+.precio_arti{
+    display: inline-flex;
+    font-size: 17px;
+}
+.title_arti, .title_arti_music{
+    font-size: 17px;
+    font-weight: bold;
+    color: #832615;
+    cursor: pointer;
+}
+.des_arti{
+    font-size: 15px;
+    width: 90%;
+}
